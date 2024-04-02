@@ -33,7 +33,7 @@ int main()
         scanf("%d",&userChoice);
 
         // validate user choice
-        if(userChoice>=0 || userChoice<=3)
+        if(userChoice>=0 && userChoice<=3)
         {
             switch (userChoice)
             {
